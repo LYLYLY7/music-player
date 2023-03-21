@@ -28,7 +28,7 @@ ol {
   transform: translate(-50%, -50%);
 
   color: #a366cb;
-  padding: 20px;
+  padding: 20px 40px;
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.7);
   width: 500px;
@@ -37,7 +37,6 @@ ol {
 .player .main {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -54,4 +53,5 @@ ol {
 }
 
 .player .main .text {
+  margin-left: 10%;
 }
