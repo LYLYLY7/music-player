@@ -67,3 +67,7 @@ ol {
   width: 50%;
   background-color: currentColor; /*currentColor 继承当前文字颜色 */
 }
+.player .time {
+  text-align: right;
+  margin-top: 8px;
+}
