@@ -55,3 +55,15 @@ ol {
 .player .main .text {
   margin-left: 10%;
 }
+
+.player .bar {
+  height: 3px;
+  background-color: #ccc;
+  border-radius: 4px;
+}
+.player .bar .progress {
+  height: 100%;
+  border-radius: 4px;
+  width: 50%;
+  background-color: currentColor; /*currentColor 继承当前文字颜色 */
+}
